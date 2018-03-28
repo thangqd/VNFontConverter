@@ -1,0 +1,40 @@
+﻿VN Font Converter
+
+Version: 
+
+Date: September 2014
+
+=========
+
+
+ArcGIS Toolbox convert font Vietnamese for shapefile/ feature class
+
+
+Công cụ chuyển đổi mã font cho shapefile/ feature class:
+
+ chuyển giữa các bảng mã TCVN3-VNIWindows-Unicode & chuyển về không dấu,
+
+ kèm theo lựa chọn chuyển sang chữ hoa, chữ thường, hoa đầu câu, hoa mỗi từ.
+
+
+Phát triển bởi: 
+  Chu Quang Thảo (chuquangthao@gmail.com)
+ 
+
+Trên cở sở tham khảo mã nguồn của:
+
+  Ninomax - thanhlv@oucru.org - Mapping team - The Oxford University Clinical Research Unit, Ha Noi
+
+  Quách Đồng Thắng (https://hcmgis.vn), Trung tâm Ứng dụng GIS Tp.HCM.
+
+
+Hướng dẫn sử dụng:
+
+- Chạy file Shapefile_Unicode_*.reg tương ứng với phiên bản ArcGIS đang dùng (có thể chỉnh sửa file .reg phù hợp với phiên bản ArcGIS trước khi chạy file).
+
+- Khởi động ArcCatalog/ ArcMap, vào ArcToolbox --> Add Toolbox --> chọn file "VNFont Converter.tbx".
+ Chọn Save Settings --> To Default nếu muốn ArcGIS nạp sẵn công cụ VNConvert khi khởi động.
+
+- Khởi động nhanh: Trong ArcCatalog tìm đến thư mục chứa "VNFont Converter.tbx" va "VNFontConverter.py".
+Nhấp chuột vào dấu "+" để mở "Chuyển đổi mã font" để sử dụng.
+ 
